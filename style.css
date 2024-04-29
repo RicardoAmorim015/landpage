@@ -1,0 +1,41 @@
+.ul1{
+    display: flex;
+    list-style: none;
+   justify-content: space-around;
+    
+    background-color: rgba(167, 244, 241, 0.63);
+}
+.ul2{
+    display: flex;
+    list-style: none;
+   justify-content: space-between;
+    
+    background-color: rgba(167, 244, 241, 0.63);
+}
+.ul3{
+    display: flex;
+    list-style: none;
+   justify-content: space-evenly
+   ;
+    
+    background-color: rgba(167, 244, 241, 0.63);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(26, 27, 37);
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 25px;
+}
+.titulo-sobremesa:hover{
+    color: rgb(33, 132, 132);
+    transition: 1s;
+    cursor: pointer;
+}
+
+.texto-sobremesa:hover{
+    color: rgb(0, 109, 109);
+    transition: 1s;
+}
